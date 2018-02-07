@@ -1,7 +1,7 @@
 package com.example.gufran.momentsflowbottomsheet;
 
 import android.os.Bundle;
-import android.support.design.widget.BottomSheetDialogFragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 /**
  * Created by magicpin on 7/2/18.
  */
-public class BottomSheetFragment extends BottomSheetDialogFragment {
+public class BottomSheetFragment extends Fragment {
     public BottomSheetFragment() {
         // Required empty public constructor
     }
@@ -17,7 +17,6 @@ public class BottomSheetFragment extends BottomSheetDialogFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setCancelable(true);
     }
 
     @Override
